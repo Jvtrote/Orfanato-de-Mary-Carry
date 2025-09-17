@@ -15,7 +15,7 @@ C:/Users/ra00349650/Downloads/Orfanato-de-Mary-Carry/Orfanato de Mary Carry
 -logFile
 Logs/AssetImportWorker6.log
 -srvPort
-54099
+57483
 -job-worker-count
 9
 -background-job-worker-count
@@ -59,16 +59,16 @@ C:/Users/ra00349650/Downloads/Orfanato-de-Mary-Carry/Orfanato de Mary Carry
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [5468]  Target information:
+Player connection [11136]  Target information:
 
-Player connection [5468]  * "[IP] 172.17.5.12 [Port] 0 [Flags] 2 [Guid] 990341521 [EditorId] 990341521 [Version] 1048832 [Id] WindowsEditor(7,DSP-BRJ3055CN5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [11136]  * "[IP] 172.17.5.12 [Port] 0 [Flags] 2 [Guid] 4238989142 [EditorId] 4238989142 [Version] 1048832 [Id] WindowsEditor(7,DSP-BRJ3055CN5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [5468]  * "[IP] 172.18.128.1 [Port] 0 [Flags] 2 [Guid] 990341521 [EditorId] 990341521 [Version] 1048832 [Id] WindowsEditor(7,DSP-BRJ3055CN5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [11136]  * "[IP] 172.18.128.1 [Port] 0 [Flags] 2 [Guid] 4238989142 [EditorId] 4238989142 [Version] 1048832 [Id] WindowsEditor(7,DSP-BRJ3055CN5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [5468]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 990341521 [EditorId] 990341521 [Version] 1048832 [Id] WindowsEditor(7,DSP-BRJ3055CN5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [11136]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 4238989142 [EditorId] 4238989142 [Version] 1048832 [Id] WindowsEditor(7,DSP-BRJ3055CN5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [5468] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [5468] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [11136] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [11136] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 9
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -80,7 +80,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.35 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.35f1 (9a3bc604008a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.35f1-x86_64/Editor/Data/Resources/UnitySubsystems
@@ -97,50 +97,50 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.35f1-x86_64/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.35f1-x86_64/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.35f1-x86_64/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56556
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56824
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.35f1-x86_64/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.35f1-x86_64/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.35f1-x86_64/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.002782 seconds.
-- Loaded All Assemblies, in  0.612 seconds
+Registered in 0.003276 seconds.
+- Loaded All Assemblies, in  0.441 seconds
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 275 ms
+Android Extension - Scanning For ADB Devices 180 ms
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.746 seconds
-Domain Reload Profiling: 1357ms
-	BeginReloadAssembly (245ms)
+- Finished resetting the current domain, in  0.532 seconds
+Domain Reload Profiling: 972ms
+	BeginReloadAssembly (199ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (49ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (52ms)
-	LoadAllAssembliesAndSetupDomain (251ms)
-		LoadAssemblies (248ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (144ms)
+		LoadAssemblies (198ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (245ms)
-			TypeCache.Refresh (243ms)
-				TypeCache.ScanAssembly (215ms)
+		AnalyzeDomain (141ms)
+			TypeCache.Refresh (140ms)
+				TypeCache.ScanAssembly (128ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (746ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (532ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (698ms)
+		SetupLoadedEditorAssemblies (485ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (410ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (59ms)
-			ProcessInitializeOnLoadAttributes (139ms)
-			ProcessInitializeOnLoadMethodAttributes (86ms)
+			InitializePlatformSupportModulesInManaged (275ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (105ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -149,117 +149,65 @@ Domain Reload Profiling: 1357ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.655 seconds
+- Loaded All Assemblies, in  0.728 seconds
 'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 0.33 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.692 seconds
-Domain Reload Profiling: 1347ms
-	BeginReloadAssembly (148ms)
+- Finished resetting the current domain, in  0.896 seconds
+Domain Reload Profiling: 1623ms
+	BeginReloadAssembly (155ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (28ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (442ms)
-		LoadAssemblies (284ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (491ms)
+		LoadAssemblies (310ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (239ms)
-			TypeCache.Refresh (181ms)
-				TypeCache.ScanAssembly (168ms)
-			BuildScriptInfoCaches (46ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (693ms)
+		AnalyzeDomain (278ms)
+			TypeCache.Refresh (201ms)
+				TypeCache.ScanAssembly (187ms)
+			BuildScriptInfoCaches (59ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (897ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (567ms)
+		SetupLoadedEditorAssemblies (736ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (80ms)
-			ProcessInitializeOnLoadAttributes (243ms)
-			ProcessInitializeOnLoadMethodAttributes (226ms)
-			AfterProcessingInitializeOnLoad (2ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (98ms)
+			ProcessInitializeOnLoadAttributes (325ms)
+			ProcessInitializeOnLoadMethodAttributes (291ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (5ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 446 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6752 unused Assets / (5.7 MB). Loaded Objects now: 7674.
-Memory consumption went from 240.2 MB to 234.5 MB.
-Total: 7.118600 ms (FindLiveObjects: 1.181800 ms CreateObjectMapping: 0.443900 ms MarkObjects: 3.542700 ms  DeleteObjects: 1.949500 ms)
+Unloading 6752 unused Assets / (5.7 MB). Loaded Objects now: 7672.
+Memory consumption went from 238.1 MB to 232.3 MB.
+Total: 8.370100 ms (FindLiveObjects: 0.555500 ms CreateObjectMapping: 0.619800 ms MarkObjects: 4.536800 ms  DeleteObjects: 2.656700 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1068.698852 seconds.
-  path: Assets/texturas/TCom_Wood_ParquetHerringbone9_New_1K_albedo.tif
-  artifactKey: Guid(8f693389f3f4bc1468fa3b9cdb1d4cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/texturas/TCom_Wood_ParquetHerringbone9_New_1K_albedo.tif using Guid(8f693389f3f4bc1468fa3b9cdb1d4cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e1b986b5d699d6c0735685ee26282251') in 0.0740391 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 9692.585568 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Medium.ttf
+  artifactKey: Guid(a51a3aebb43ac044989270407476b208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Medium.ttf using Guid(a51a3aebb43ac044989270407476b208) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b208917ef801ea958b6b22cda4363145') in 3.1341403 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
 
-========================================================================
-Received Import Request.
-  Time since last request: 244.675129 seconds.
-  path: Assets/texturas/1-16.webp
-  artifactKey: Guid(f4b0e829d324f9b4ba3b6a5952da1840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/texturas/1-16.webp using Guid(f4b0e829d324f9b4ba3b6a5952da1840) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd1356a91759dac698bec91cf7211502a') in 0.0014093 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 203.782733 seconds.
-  path: Assets/texturas/textura-da-superficie-da-parede_23-2148862485.jpg
-  artifactKey: Guid(96834fbe658807042842127d39b7e28e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/texturas/textura-da-superficie-da-parede_23-2148862485.jpg using Guid(96834fbe658807042842127d39b7e28e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '527f97be5daa5be862b1a7dc1672e464') in 0.0013212 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 66.552094 seconds.
-  path: Assets/texturas/istockphoto-155392251-612x612.jpg
-  artifactKey: Guid(b275171f51879f94898b5271a06d2472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/texturas/istockphoto-155392251-612x612.jpg using Guid(b275171f51879f94898b5271a06d2472) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '479a0b67af0b6d35c2fb91be0ab48966') in 0.0137669 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 353.756942 seconds.
-  path: Assets/texturas/yellow_plaster.webp
-  artifactKey: Guid(9d7ace9c3e34e0c49aaa8eecaa12dc7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/texturas/yellow_plaster.webp using Guid(9d7ace9c3e34e0c49aaa8eecaa12dc7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b4d6eecec4955d02fc3075bef86748b0') in 0.0015896 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 91.006087 seconds.
-  path: Assets/texturas/parede-texturizada-de-rocha-amarela_1368-6131.jpg
-  artifactKey: Guid(272e35ffff2a29a45a3d2c545e750ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/texturas/parede-texturizada-de-rocha-amarela_1368-6131.jpg using Guid(272e35ffff2a29a45a3d2c545e750ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a8c3dae2556847512788c3037777bf03') in 0.0007878 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 35.491639 seconds.
-  path: Assets/texturas/texturas-de-parede-de-concreto-amarelo_74190-2737.jpg
-  artifactKey: Guid(cee0d6c58b3f62e4e8f082fc9014b4bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/texturas/texturas-de-parede-de-concreto-amarelo_74190-2737.jpg using Guid(cee0d6c58b3f62e4e8f082fc9014b4bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ec4b16cba8e96ee2c995d55a02c9cc5a') in 0.0009417 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 120.080974 seconds.
-  path: Assets/texturas/yellow-wood-texture-wallpaper.jpg
-  artifactKey: Guid(b04e75c87fd202c47a6e0dc249e3a0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/texturas/yellow-wood-texture-wallpaper.jpg using Guid(b04e75c87fd202c47a6e0dc249e3a0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f9b039c7da8d4266e3e921a45a25dcbc') in 0.0180759 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
