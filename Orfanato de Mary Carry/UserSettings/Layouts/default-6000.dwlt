@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Scene
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 101
+  controlID: 37
   draggingID: 0
 --- !u!114 &3
 MonoBehaviour:
@@ -69,8 +69,8 @@ MonoBehaviour:
     y: 0
     width: 455
     height: 933
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 76}
+  m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -95,8 +95,8 @@ MonoBehaviour:
     y: 0
     width: 363
     height: 551
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 226}
+  m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -326,7 +326,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/imagens
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -336,7 +336,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/imagens
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\ra00349650\Downloads\Orfanato-de-Mary-Carry\Orfanato
     de Mary Carry
@@ -344,23 +344,23 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: eaf30000
-    m_LastClickedID: 62442
-    m_ExpandedIDs: 00000000eaf30000eef30000f4f3000044f4000000ca9a3bffffff7f
+    m_SelectedIDs: 08f40000
+    m_LastClickedID: 62472
+    m_ExpandedIDs: 0000000006f4000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: materiais
-      m_OriginalName: materiais
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 62446
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_TrimLeadingAndTrailingWhitespace: 0
       m_ClientGUIView: {fileID: 5}
@@ -521,9 +521,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: f81dffff
-      m_LastClickedID: -57864
-      m_ExpandedIDs: 041effff061effff7631ffff62f40000
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 2227ffff2427ffff3e31ffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1085,9 +1085,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -42.26969, y: -0.6024487, z: 114.390175}
+    m_Target: {x: -62.121548, y: -8.80536, z: 132.53795}
     speed: 2
-    m_Value: {x: -42.26969, y: -0.6024487, z: 114.390175}
+    m_Value: {x: -62.121548, y: -8.80536, z: 132.53795}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1133,20 +1133,20 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.015714772, y: -0.14942166, z: 0.0024119874, w: 0.9886886}
+    m_Target: {x: -0.04942735, y: 0.19294585, z: -0.009751848, w: -0.9799714}
     speed: 2
-    m_Value: {x: 0.015714107, y: -0.14941534, z: 0.0024118854, w: 0.98864675}
+    m_Value: {x: -0.04795471, y: 0.19294964, z: -0.009461835, w: -0.9799904}
   m_Size:
-    m_Target: 69.61789
+    m_Target: 85.68332
     speed: 2
-    m_Value: 72.898315
+    m_Value: 81.99361
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
-    m_Speed: 0.8805599
-    m_SpeedNormalized: 0.43999997
+    m_Speed: 0.82058996
+    m_SpeedNormalized: 0.40999997
     m_SpeedMin: 0.001
     m_SpeedMax: 2
     m_EasingEnabled: 1
