@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Project
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -326,7 +326,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Blood decal pack
+    - Assets/audios
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -336,7 +336,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Blood decal pack
+  - Assets/audios
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\ra00349650\Downloads\Orfanato-de-Mary-Carry\Orfanato
     de Mary Carry
@@ -344,9 +344,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 4c040100
-    m_LastClickedID: 66636
-    m_ExpandedIDs: 0000000054f5000042fd000046fd000062fe000074fe000094ff00009cff000086000100900001009c000100a20001004e04010000ca9a3bffffff7f
+    m_SelectedIDs: e0820100
+    m_LastClickedID: 99040
+    m_ExpandedIDs: 0000000076fb0000bcfb0000e6000100e8000100ea000100060c0100100c0100140c010000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -403,7 +403,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000faf4000012fe000076000100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -520,10 +520,10 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 728}
-      m_SelectedIDs: 9605fdff
-      m_LastClickedID: -195178
-      m_ExpandedIDs: 0267feff1e67feff5e8afeff569cfeff86b4feff9e23ffff0424ffff122effff
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: d6cffeff9ad1feff10dbfeff6a17ffffe41effff0212010010120100
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1085,9 +1085,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -60.49133, y: 1.8566803, z: -11.8681755}
+    m_Target: {x: -4.585258, y: -2.993189, z: 14.837871}
     speed: 2
-    m_Value: {x: -60.49133, y: 1.8566803, z: -11.8681755}
+    m_Value: {x: -4.585258, y: -2.993189, z: 14.837871}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1133,20 +1133,20 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.031988334, y: -0.9652498, z: 0.2128823, w: 0.15020505}
+    m_Target: {x: 0.0985214, y: 0.081108585, z: -0.007961233, w: 0.99183637}
     speed: 2
-    m_Value: {x: 0.031753566, y: -0.9652733, z: 0.2113696, w: 0.15020695}
+    m_Value: {x: 0.098517075, y: 0.08110502, z: -0.007960884, w: 0.99179286}
   m_Size:
-    m_Target: 2.1617806
+    m_Target: 15.234599
     speed: 2
-    m_Value: 2.1617806
+    m_Value: 15.234599
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
-    m_Speed: 0.40079993
-    m_SpeedNormalized: 0.19999996
+    m_Speed: 0.58070993
+    m_SpeedNormalized: 0.28999996
     m_SpeedMin: 0.001
     m_SpeedMax: 2
     m_EasingEnabled: 1

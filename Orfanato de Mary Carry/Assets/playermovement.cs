@@ -5,17 +5,29 @@ public class playermovement : MonoBehaviour
     [Header("Movement")]
     public float moveSpeed;
 
+    public float runSpeed;
+
     public float groundDrag;
 
-    [Header("Ground Check")]
+    private float currentSpeed;
+
+    public float crouchSpeed;
+
+   [Header("Ground Check")]
     public float playerHeight;
     public LayerMask whatIsGround;
     bool grounded;
+
+    [Header("Crouch Settings")]
+    public float crouchYScale = 0.5f;  //  Altura reduzida ao agachar
+    private float startYScale;         //  Altura original
+    bool isCrouching;
 
     public Transform orientation;
 
     float horizontalInput;
     float verticalInput;
+    bool isRunning;
 
     Vector3 moveDirection;
 
@@ -25,6 +37,7 @@ public class playermovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true;
+        startYScale = transform.localScale.y;
     }
     private void Update()
     {
@@ -41,6 +54,14 @@ public class playermovement : MonoBehaviour
     {
         grounded = Physics.Raycast(transform.position, Vector3.down, playerHeight * 0.5f + 0.2f, whatIsGround);
 
+        if (isRunning)
+        {
+            moveSpeed = 4;
+        }
+        else
+        {
+            moveSpeed = 2;
+        }
         MovePlayer();
         SpeedControl();
 
@@ -53,6 +74,38 @@ public class playermovement : MonoBehaviour
     {
         horizontalInput = Input.GetAxisRaw("Horizontal");
         verticalInput = Input.GetAxisRaw("Vertical");
+
+        isRunning = Input.GetKey(KeyCode.LeftShift);
+        currentSpeed = isRunning ? runSpeed : moveSpeed;
+
+        if (Input.GetKeyDown(KeyCode.LeftControl))
+        {
+            StartCrouch();
+        }
+        if (Input.GetKeyUp(KeyCode.LeftControl))
+        {
+            StopCrouch();
+
+            if (isCrouching)
+                currentSpeed = crouchSpeed;
+            else if (isRunning)
+                currentSpeed = runSpeed;
+            else
+                currentSpeed = moveSpeed;
+        }
+    }
+
+    private void StartCrouch()
+    {
+        isCrouching = true;
+        transform.localScale = new Vector3(transform.localScale.x, crouchYScale, transform.localScale.z);
+        rb.AddForce(Vector3.down * 5f, ForceMode.Impulse); // ajuda a "colar" no chão
+    }
+
+    private void StopCrouch()
+    {
+        isCrouching = false;
+        transform.localScale = new Vector3(transform.localScale.x, startYScale, transform.localScale.z);
     }
     private void MovePlayer() 
     {
