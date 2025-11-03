@@ -1,17 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ra00349650\\Downloads\\Orfanato-de-Mary-Carry\\Orfanato de Mary Carry\\",
+  "WorkspaceRootPath": "C:\\Users\\ra00349650\\Documents\\GitHub\\Orfanato-de-Mary-Carry\\Orfanato de Mary Carry\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DCAB14E5-8659-D501-8441-D92AEF21B6FD}|Assembly-CSharp.csproj|c:\\users\\ra00349650\\downloads\\orfanato-de-mary-carry\\orfanato de mary carry\\assets\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DCAB14E5-8659-D501-8441-D92AEF21B6FD}|Assembly-CSharp.csproj|c:\\users\\ra00349650\\documents\\github\\orfanato-de-mary-carry\\orfanato de mary carry\\assets\\menuprincipalmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCAB14E5-8659-D501-8441-D92AEF21B6FD}|Assembly-CSharp.csproj|solutionrelative:assets\\menuprincipalmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCAB14E5-8659-D501-8441-D92AEF21B6FD}|Assembly-CSharp.csproj|c:\\users\\ra00349650\\documents\\github\\orfanato-de-mary-carry\\orfanato de mary carry\\assets\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DCAB14E5-8659-D501-8441-D92AEF21B6FD}|Assembly-CSharp.csproj|solutionrelative:assets\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DCAB14E5-8659-D501-8441-D92AEF21B6FD}|Assembly-CSharp.csproj|C:\\Users\\ra00349650\\Downloads\\Orfanato-de-Mary-Carry\\Orfanato de Mary Carry\\assets\\samples\\input system\\1.11.2\\simple demo\\simplecontroller_usingactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DCAB14E5-8659-D501-8441-D92AEF21B6FD}|Assembly-CSharp.csproj|C:\\Users\\ra00349650\\Documents\\GitHub\\Orfanato-de-Mary-Carry\\Orfanato de Mary Carry\\assets\\samples\\input system\\1.11.2\\simple demo\\simplecontroller_usingactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DCAB14E5-8659-D501-8441-D92AEF21B6FD}|Assembly-CSharp.csproj|solutionrelative:assets\\samples\\input system\\1.11.2\\simple demo\\simplecontroller_usingactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ra00349650\\Downloads\\Orfanato-de-Mary-Carry\\Orfanato de Mary Carry\\Library\\PackageCache\\com.unity.ugui@24b10291b18f\\Runtime\\UGUI\\EventSystem\\InputModules\\StandaloneInputModule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ra00349650\\Documents\\GitHub\\Orfanato-de-Mary-Carry\\Orfanato de Mary Carry\\Library\\PackageCache\\com.unity.ugui@24b10291b18f\\Runtime\\UGUI\\EventSystem\\InputModules\\StandaloneInputModule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.ugui@24b10291b18f\\Runtime\\UGUI\\EventSystem\\InputModules\\StandaloneInputModule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,15 +26,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "MenuPrincipalManager.cs",
+              "DocumentMoniker": "C:\\Users\\ra00349650\\Documents\\GitHub\\Orfanato-de-Mary-Carry\\Orfanato de Mary Carry\\Assets\\MenuPrincipalManager.cs",
+              "RelativeDocumentMoniker": "Assets\\MenuPrincipalManager.cs",
+              "ToolTip": "C:\\Users\\ra00349650\\Documents\\GitHub\\Orfanato-de-Mary-Carry\\Orfanato de Mary Carry\\Assets\\MenuPrincipalManager.cs",
+              "RelativeToolTip": "Assets\\MenuPrincipalManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T14:28:12.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "StandaloneInputModule.cs",
-              "DocumentMoniker": "C:\\Users\\ra00349650\\Downloads\\Orfanato-de-Mary-Carry\\Orfanato de Mary Carry\\Library\\PackageCache\\com.unity.ugui@24b10291b18f\\Runtime\\UGUI\\EventSystem\\InputModules\\StandaloneInputModule.cs",
+              "DocumentMoniker": "C:\\Users\\ra00349650\\Documents\\GitHub\\Orfanato-de-Mary-Carry\\Orfanato de Mary Carry\\Library\\PackageCache\\com.unity.ugui@24b10291b18f\\Runtime\\UGUI\\EventSystem\\InputModules\\StandaloneInputModule.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.ugui@24b10291b18f\\Runtime\\UGUI\\EventSystem\\InputModules\\StandaloneInputModule.cs",
-              "ToolTip": "C:\\Users\\ra00349650\\Downloads\\Orfanato-de-Mary-Carry\\Orfanato de Mary Carry\\Library\\PackageCache\\com.unity.ugui@24b10291b18f\\Runtime\\UGUI\\EventSystem\\InputModules\\StandaloneInputModule.cs",
+              "ToolTip": "C:\\Users\\ra00349650\\Documents\\GitHub\\Orfanato-de-Mary-Carry\\Orfanato de Mary Carry\\Library\\PackageCache\\com.unity.ugui@24b10291b18f\\Runtime\\UGUI\\EventSystem\\InputModules\\StandaloneInputModule.cs",
               "RelativeToolTip": "Library\\PackageCache\\com.unity.ugui@24b10291b18f\\Runtime\\UGUI\\EventSystem\\InputModules\\StandaloneInputModule.cs",
               "ViewState": "AgIAACcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -38,32 +59,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "playermovement.cs",
-              "DocumentMoniker": "C:\\Users\\ra00349650\\Downloads\\Orfanato-de-Mary-Carry\\Orfanato de Mary Carry\\Assets\\playermovement.cs",
+              "DocumentMoniker": "C:\\Users\\ra00349650\\Documents\\GitHub\\Orfanato-de-Mary-Carry\\Orfanato de Mary Carry\\Assets\\playermovement.cs",
               "RelativeDocumentMoniker": "Assets\\playermovement.cs",
-              "ToolTip": "C:\\Users\\ra00349650\\Downloads\\Orfanato-de-Mary-Carry\\Orfanato de Mary Carry\\Assets\\playermovement.cs",
+              "ToolTip": "C:\\Users\\ra00349650\\Documents\\GitHub\\Orfanato-de-Mary-Carry\\Orfanato de Mary Carry\\Assets\\playermovement.cs",
               "RelativeToolTip": "Assets\\playermovement.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAIwBUAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-24T14:25:20.294Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "SimpleController_UsingActions.cs",
-              "DocumentMoniker": "C:\\Users\\ra00349650\\Downloads\\Orfanato-de-Mary-Carry\\Orfanato de Mary Carry\\Assets\\Samples\\Input System\\1.11.2\\Simple Demo\\SimpleController_UsingActions.cs",
+              "DocumentMoniker": "C:\\Users\\ra00349650\\Documents\\GitHub\\Orfanato-de-Mary-Carry\\Orfanato de Mary Carry\\Assets\\Samples\\Input System\\1.11.2\\Simple Demo\\SimpleController_UsingActions.cs",
               "RelativeDocumentMoniker": "Assets\\Samples\\Input System\\1.11.2\\Simple Demo\\SimpleController_UsingActions.cs",
-              "ToolTip": "C:\\Users\\ra00349650\\Downloads\\Orfanato-de-Mary-Carry\\Orfanato de Mary Carry\\Assets\\Samples\\Input System\\1.11.2\\Simple Demo\\SimpleController_UsingActions.cs",
+              "ToolTip": "C:\\Users\\ra00349650\\Documents\\GitHub\\Orfanato-de-Mary-Carry\\Orfanato de Mary Carry\\Assets\\Samples\\Input System\\1.11.2\\Simple Demo\\SimpleController_UsingActions.cs",
               "RelativeToolTip": "Assets\\Samples\\Input System\\1.11.2\\Simple Demo\\SimpleController_UsingActions.cs",
               "ViewState": "AgIAAEMAAAAAAAAAAAAgwD0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-29T12:43:39.421Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }
