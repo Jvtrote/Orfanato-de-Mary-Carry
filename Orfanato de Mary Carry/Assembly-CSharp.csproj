@@ -61,14 +61,19 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.35f1-x86_64\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\scrpits\mesafrutas.cs" />
+    <Compile Include="Assets\scrpits\DragPlate.cs" />
     <Compile Include="Assets\Samples\Input System\1.11.2\Simple Demo\SimpleController_UsingActions.cs" />
-    <Compile Include="Assets\playermovement.cs" />
+    <Compile Include="Assets\scrpits\PuzzleManager.cs" />
     <Compile Include="Assets\Samples\Input System\1.11.2\Simple Demo\SimpleController_UsingActionAsset.cs" />
-    <Compile Include="Assets\moveCamera.cs" />
+    <Compile Include="Assets\scrpits\mesalegumes.cs" />
     <Compile Include="Assets\Samples\Input System\1.11.2\Simple Demo\SimpleControls.cs" />
+    <Compile Include="Assets\scrpits\MenuPrincipalManager.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\scrpits\mesacarne.cs" />
+    <Compile Include="Assets\scrpits\playermovement.cs" />
     <Compile Include="Assets\Samples\Input System\1.11.2\Simple Demo\SimpleController_UsingPlayerInput.cs" />
-    <Compile Include="Assets\MenuPrincipalManager.cs" />
+    <Compile Include="Assets\scrpits\moveCamera.cs" />
     <Compile Include="Assets\Samples\Input System\1.11.2\Simple Demo\SimpleController_UsingState.cs" />
   </ItemGroup>
   <ItemGroup>

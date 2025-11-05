@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\ra00349650\\Downloads\\Orfanato-de-Mary-Carry\\Orfanato de Mary Carry\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DCAB14E5-8659-D501-8441-D92AEF21B6FD}|Assembly-CSharp.csproj|c:\\users\\ra00349650\\downloads\\orfanato-de-mary-carry\\orfanato de mary carry\\assets\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DCAB14E5-8659-D501-8441-D92AEF21B6FD}|Assembly-CSharp.csproj|solutionrelative:assets\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DCAB14E5-8659-D501-8441-D92AEF21B6FD}|Assembly-CSharp.csproj|C:\\Users\\ra00349650\\Downloads\\Orfanato-de-Mary-Carry\\Orfanato de Mary Carry\\assets\\scrpits\\mesacarne.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCAB14E5-8659-D501-8441-D92AEF21B6FD}|Assembly-CSharp.csproj|solutionrelative:assets\\scrpits\\mesacarne.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DCAB14E5-8659-D501-8441-D92AEF21B6FD}|Assembly-CSharp.csproj|C:\\Users\\ra00349650\\Downloads\\Orfanato-de-Mary-Carry\\Orfanato de Mary Carry\\assets\\samples\\input system\\1.11.2\\simple demo\\simplecontroller_usingactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DCAB14E5-8659-D501-8441-D92AEF21B6FD}|Assembly-CSharp.csproj|solutionrelative:assets\\samples\\input system\\1.11.2\\simple demo\\simplecontroller_usingactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DCAB14E5-8659-D501-8441-D92AEF21B6FD}|Assembly-CSharp.csproj|C:\\Users\\ra00349650\\Downloads\\Orfanato-de-Mary-Carry\\Orfanato de Mary Carry\\assets\\scrpits\\mesalegumes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCAB14E5-8659-D501-8441-D92AEF21B6FD}|Assembly-CSharp.csproj|solutionrelative:assets\\scrpits\\mesalegumes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ra00349650\\Downloads\\Orfanato-de-Mary-Carry\\Orfanato de Mary Carry\\Library\\PackageCache\\com.unity.ugui@24b10291b18f\\Runtime\\UGUI\\EventSystem\\InputModules\\StandaloneInputModule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.ugui@24b10291b18f\\Runtime\\UGUI\\EventSystem\\InputModules\\StandaloneInputModule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DCAB14E5-8659-D501-8441-D92AEF21B6FD}|Assembly-CSharp.csproj|C:\\Users\\ra00349650\\Downloads\\Orfanato-de-Mary-Carry\\Orfanato de Mary Carry\\assets\\scrpits\\puzzlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCAB14E5-8659-D501-8441-D92AEF21B6FD}|Assembly-CSharp.csproj|solutionrelative:assets\\scrpits\\puzzlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCAB14E5-8659-D501-8441-D92AEF21B6FD}|Assembly-CSharp.csproj|c:\\users\\ra00349650\\downloads\\orfanato-de-mary-carry\\orfanato de mary carry\\assets\\scrpits\\mesafrutas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCAB14E5-8659-D501-8441-D92AEF21B6FD}|Assembly-CSharp.csproj|solutionrelative:assets\\scrpits\\mesafrutas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ra00349650\\Downloads\\Orfanato-de-Mary-Carry\\Orfanato de Mary Carry\\Assets\\MenuPrincipalManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\MenuPrincipalManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ra00349650\\Downloads\\Orfanato-de-Mary-Carry\\Orfanato de Mary Carry\\Assets\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,48 +34,83 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "StandaloneInputModule.cs",
-              "DocumentMoniker": "C:\\Users\\ra00349650\\Downloads\\Orfanato-de-Mary-Carry\\Orfanato de Mary Carry\\Library\\PackageCache\\com.unity.ugui@24b10291b18f\\Runtime\\UGUI\\EventSystem\\InputModules\\StandaloneInputModule.cs",
-              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.ugui@24b10291b18f\\Runtime\\UGUI\\EventSystem\\InputModules\\StandaloneInputModule.cs",
-              "ToolTip": "C:\\Users\\ra00349650\\Downloads\\Orfanato-de-Mary-Carry\\Orfanato de Mary Carry\\Library\\PackageCache\\com.unity.ugui@24b10291b18f\\Runtime\\UGUI\\EventSystem\\InputModules\\StandaloneInputModule.cs",
-              "RelativeToolTip": "Library\\PackageCache\\com.unity.ugui@24b10291b18f\\Runtime\\UGUI\\EventSystem\\InputModules\\StandaloneInputModule.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "mesafrutas.cs",
+              "DocumentMoniker": "C:\\Users\\ra00349650\\Downloads\\Orfanato-de-Mary-Carry\\Orfanato de Mary Carry\\Assets\\scrpits\\mesafrutas.cs",
+              "RelativeDocumentMoniker": "Assets\\scrpits\\mesafrutas.cs",
+              "ToolTip": "C:\\Users\\ra00349650\\Downloads\\Orfanato-de-Mary-Carry\\Orfanato de Mary Carry\\Assets\\scrpits\\mesafrutas.cs",
+              "RelativeToolTip": "Assets\\scrpits\\mesafrutas.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAIAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T12:39:10.182Z"
+              "WhenOpened": "2025-11-05T13:09:37.237Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "playermovement.cs",
-              "DocumentMoniker": "C:\\Users\\ra00349650\\Downloads\\Orfanato-de-Mary-Carry\\Orfanato de Mary Carry\\Assets\\playermovement.cs",
-              "RelativeDocumentMoniker": "Assets\\playermovement.cs",
-              "ToolTip": "C:\\Users\\ra00349650\\Downloads\\Orfanato-de-Mary-Carry\\Orfanato de Mary Carry\\Assets\\playermovement.cs",
-              "RelativeToolTip": "Assets\\playermovement.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAIwBUAAAAqAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "PuzzleManager.cs",
+              "DocumentMoniker": "C:\\Users\\ra00349650\\Downloads\\Orfanato-de-Mary-Carry\\Orfanato de Mary Carry\\Assets\\scrpits\\PuzzleManager.cs",
+              "RelativeDocumentMoniker": "Assets\\scrpits\\PuzzleManager.cs",
+              "ToolTip": "C:\\Users\\ra00349650\\Downloads\\Orfanato-de-Mary-Carry\\Orfanato de Mary Carry\\Assets\\scrpits\\PuzzleManager.cs",
+              "RelativeToolTip": "Assets\\scrpits\\PuzzleManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T14:25:20.294Z",
+              "WhenOpened": "2025-11-05T13:04:43.179Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "SimpleController_UsingActions.cs",
-              "DocumentMoniker": "C:\\Users\\ra00349650\\Downloads\\Orfanato-de-Mary-Carry\\Orfanato de Mary Carry\\Assets\\Samples\\Input System\\1.11.2\\Simple Demo\\SimpleController_UsingActions.cs",
-              "RelativeDocumentMoniker": "Assets\\Samples\\Input System\\1.11.2\\Simple Demo\\SimpleController_UsingActions.cs",
-              "ToolTip": "C:\\Users\\ra00349650\\Downloads\\Orfanato-de-Mary-Carry\\Orfanato de Mary Carry\\Assets\\Samples\\Input System\\1.11.2\\Simple Demo\\SimpleController_UsingActions.cs",
-              "RelativeToolTip": "Assets\\Samples\\Input System\\1.11.2\\Simple Demo\\SimpleController_UsingActions.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAgwD0AAAAFAAAAAAAAAA==",
+              "Title": "mesalegumes.cs",
+              "DocumentMoniker": "C:\\Users\\ra00349650\\Downloads\\Orfanato-de-Mary-Carry\\Orfanato de Mary Carry\\Assets\\scrpits\\mesalegumes.cs",
+              "RelativeDocumentMoniker": "Assets\\scrpits\\mesalegumes.cs",
+              "ToolTip": "C:\\Users\\ra00349650\\Downloads\\Orfanato-de-Mary-Carry\\Orfanato de Mary Carry\\Assets\\scrpits\\mesalegumes.cs",
+              "RelativeToolTip": "Assets\\scrpits\\mesalegumes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T12:43:39.421Z"
+              "WhenOpened": "2025-11-05T13:01:43.323Z",
+              "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "mesacarne.cs",
+              "DocumentMoniker": "C:\\Users\\ra00349650\\Downloads\\Orfanato-de-Mary-Carry\\Orfanato de Mary Carry\\Assets\\scrpits\\mesacarne.cs",
+              "RelativeDocumentMoniker": "Assets\\scrpits\\mesacarne.cs",
+              "ToolTip": "C:\\Users\\ra00349650\\Downloads\\Orfanato-de-Mary-Carry\\Orfanato de Mary Carry\\Assets\\scrpits\\mesacarne.cs",
+              "RelativeToolTip": "Assets\\scrpits\\mesacarne.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T12:51:39.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MenuPrincipalManager.cs",
+              "DocumentMoniker": "C:\\Users\\ra00349650\\Downloads\\Orfanato-de-Mary-Carry\\Orfanato de Mary Carry\\Assets\\MenuPrincipalManager.cs",
+              "RelativeDocumentMoniker": "Assets\\MenuPrincipalManager.cs",
+              "ToolTip": "C:\\Users\\ra00349650\\Downloads\\Orfanato-de-Mary-Carry\\Orfanato de Mary Carry\\Assets\\MenuPrincipalManager.cs",
+              "RelativeToolTip": "Assets\\MenuPrincipalManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T14:28:12.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "playermovement.cs",
+              "DocumentMoniker": "C:\\Users\\ra00349650\\Downloads\\Orfanato-de-Mary-Carry\\Orfanato de Mary Carry\\Assets\\playermovement.cs",
+              "RelativeDocumentMoniker": "Assets\\playermovement.cs",
+              "ToolTip": "C:\\Users\\ra00349650\\Downloads\\Orfanato-de-Mary-Carry\\Orfanato de Mary Carry\\Assets\\playermovement.cs",
+              "RelativeToolTip": "Assets\\playermovement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T14:25:20.294Z"
             }
           ]
         }
