@@ -790,6 +790,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: b4b3f61e9adb2634bb26f2577e3527c9, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1483853752}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: b4b3f61e9adb2634bb26f2577e3527c9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1483853754}
   m_SourcePrefab: {fileID: 100100000, guid: b4b3f61e9adb2634bb26f2577e3527c9, type: 3}
 --- !u!1001 &275693404
 PrefabInstance:
@@ -990,7 +993,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5148c50443773aa43bf37a0979408019, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Vermelho: 
+  Vermelho: Vermelho
   puzzleManager: {fileID: 768784227}
 --- !u!1 &358337784 stripped
 GameObject:
@@ -8547,6 +8550,19 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!114 &1483853754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1483853750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2a7b4c7c109ce94bb647ef378684665, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <KeepWorldPosition>k__BackingField: 1
 --- !u!1001 &1501911725
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9355,7 +9371,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7a012944ac59e54d80937f6d8d9874e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Amarelo: 
+  Amarelo: Amarelo
   puzzleManager: {fileID: 768784227}
 --- !u!1001 &1697511713
 PrefabInstance:
@@ -9971,7 +9987,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbce5b67d4f67a749a45b130ad97d8d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Verde: 
+  Verde: Verde
   puzzleManager: {fileID: 768784227}
 --- !u!1001 &1965834812
 PrefabInstance:
@@ -10975,8 +10991,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc0addfc0e4a6494f892850d9e4fdb43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 7
-  runSpeed: 17
+  moveSpeed: 10
+  runSpeed: 19
   groundDrag: 7
   crouchSpeed: 2
   playerHeight: 2

@@ -62,11 +62,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\scrpits\mesafrutas.cs" />
+    <Compile Include="Assets\scrpits\IPickable.cs" />
     <Compile Include="Assets\scrpits\DragPlate.cs" />
     <Compile Include="Assets\Samples\Input System\1.11.2\Simple Demo\SimpleController_UsingActions.cs" />
     <Compile Include="Assets\scrpits\PuzzleManager.cs" />
     <Compile Include="Assets\Samples\Input System\1.11.2\Simple Demo\SimpleController_UsingActionAsset.cs" />
     <Compile Include="Assets\scrpits\mesalegumes.cs" />
+    <Compile Include="Assets\scrpits\PickableObject.cs" />
     <Compile Include="Assets\Samples\Input System\1.11.2\Simple Demo\SimpleControls.cs" />
     <Compile Include="Assets\scrpits\MenuPrincipalManager.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
@@ -74,6 +76,7 @@
     <Compile Include="Assets\scrpits\playermovement.cs" />
     <Compile Include="Assets\Samples\Input System\1.11.2\Simple Demo\SimpleController_UsingPlayerInput.cs" />
     <Compile Include="Assets\scrpits\moveCamera.cs" />
+    <Compile Include="Assets\scrpits\PickableItem.cs" />
     <Compile Include="Assets\Samples\Input System\1.11.2\Simple Demo\SimpleController_UsingState.cs" />
   </ItemGroup>
   <ItemGroup>
