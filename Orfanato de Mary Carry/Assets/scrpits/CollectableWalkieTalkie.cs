@@ -2,13 +2,16 @@ using UnityEngine;
 
 public class CollectableWalkieTalkie : MonoBehaviour
 {
+    // Variável para o componente de Áudio (ADICIONADO)
+    private AudioSource audioSource;
+    
     // O objeto da Câmera do jogador (arraste a Main Camera aqui pelo Inspector)
     public Transform playerCamera;
+    
+    // ... suas outras variáveis ...
 
     [Header("Configurações na Mão")]
-    // Posição local onde o Walkie Talkie deve ficar (canto inferior direito)
     public Vector3 handPosition = new Vector3(0.4f, -0.3f, 0.7f);
-    // Rotação local quando na mão
     public Vector3 handRotation = new Vector3(0f, 0f, 0f);
 
     private bool playerIsNear = false;
@@ -17,6 +20,13 @@ public class CollectableWalkieTalkie : MonoBehaviour
 
     void Start()
     {
+        // Pega o componente AudioSource neste GameObject (ADICIONADO)
+        audioSource = GetComponent<AudioSource>();
+        if (audioSource == null)
+        {
+            Debug.LogError("O WalkieTalkie precisa de um componente AudioSource para tocar o áudio.");
+        }
+        
         // Tente encontrar a câmera principal se não for definida no Inspector
         if (playerCamera == null)
         {
@@ -35,30 +45,36 @@ public class CollectableWalkieTalkie : MonoBehaviour
 
     void CollectObject()
     {
-        // 1. Torna o Walkie Talkie filho da câmera do jogador
+        // 1. TOCA O ÁUDIO ANTES DE MOVER/DESATIVAR O OBJETO (ADICIONADO)
+        if (audioSource != null && audioSource.clip != null)
+        {
+            audioSource.Play();
+        }
+        
+        // 2. Torna o Walkie Talkie filho da câmera do jogador
         transform.SetParent(playerCamera);
 
-        // 2. Define a posição e rotação local (relativa à câmera)
+        // 3. Define a posição e rotação local (relativa à câmera)
         transform.localPosition = handPosition;
         transform.localRotation = Quaternion.Euler(handRotation);
 
-        // 3. Define o objeto como coletado e remove seu Collider/Rigidbody para evitar colisões
+        // 4. Define o objeto como coletado e remove seu Collider/Rigidbody
         isCollected = true;
-
+        
         // Desativa a capacidade de interagir novamente
         playerIsNear = false;
 
         // Opcional: Desativa o Collider e Rigidbody para que ele não interaja mais com o mundo
         Collider col = GetComponent<Collider>();
         if (col != null) col.enabled = false;
-
+        
         Rigidbody rb = GetComponent<Rigidbody>();
         if (rb != null) rb.isKinematic = true;
 
-        Debug.Log("Walkie Talkie coletado!");
+        Debug.Log("Walkie Talkie coletado! Áudio iniciado.");
     }
 
-    // --- Lógica do Gatilho ---
+    // ... (restante da lógica OnTriggerEnter e OnTriggerExit permanece inalterada) ...
     private void OnTriggerEnter(Collider other)
     {
         // Confirme se a Tag do seu jogador é "Player"
