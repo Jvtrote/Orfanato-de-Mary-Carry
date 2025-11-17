@@ -68,6 +68,8 @@
     <Compile Include="Assets\scrpits\InventoryController.cs" />
     <Compile Include="Assets\Samples\Input System\1.11.2\Simple Demo\SimpleController_UsingActionAsset.cs" />
     <Compile Include="Assets\scrpits\mesalegumes.cs" />
+    <Compile Include="Assets\scrpits\CollectableKey.cs" />
+    <Compile Include="Assets\scrpits\DoorOpener.cs" />
     <Compile Include="Assets\Samples\Input System\1.11.2\Simple Demo\SimpleControls.cs" />
     <Compile Include="Assets\scrpits\MenuPrincipalManager.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />

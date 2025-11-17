@@ -10675,6 +10675,7 @@ GameObject:
   - component: {fileID: 1921325811}
   - component: {fileID: 1921325810}
   - component: {fileID: 1921325809}
+  - component: {fileID: 1921325812}
   m_Layer: 0
   m_Name: portaentrada
   m_TagString: Untagged
@@ -10717,7 +10718,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   doorObject: {fileID: 1921325808}
   requiredKeyTag: ChaveAlmoxarifado
-  useRotation: 1
+  useRotation: 0
   openValue: {x: 0, y: 90, z: 0}
   openSpeed: 2
   interactionKey: 102
@@ -10738,6 +10739,28 @@ Transform:
   - {fileID: 523349098}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1921325812
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1921325808}
+  m_Enabled: 0
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 09f351f3069c24f43b0b1054490a1d2d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1955538193 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e62aba0e237159d43a9acad3c700a1d1, type: 3}
