@@ -75,6 +75,7 @@
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\scrpits\mesacarne.cs" />
     <Compile Include="Assets\scrpits\playermovement.cs" />
+    <Compile Include="Assets\scrpits\SimpleAudioTrigger.cs" />
     <Compile Include="Assets\Samples\Input System\1.11.2\Simple Demo\SimpleController_UsingPlayerInput.cs" />
     <Compile Include="Assets\scrpits\AbrirPorta.cs" />
     <Compile Include="Assets\scrpits\moveCamera.cs" />

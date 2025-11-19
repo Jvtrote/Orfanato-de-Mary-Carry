@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\ra00349650\\Downloads\\Orfanato-de-Mary-Carry\\Orfanato de Mary Carry\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DCAB14E5-8659-D501-8441-D92AEF21B6FD}|Assembly-CSharp.csproj|c:\\users\\ra00349650\\downloads\\orfanato-de-mary-carry\\orfanato de mary carry\\assets\\scrpits\\abrirporta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DCAB14E5-8659-D501-8441-D92AEF21B6FD}|Assembly-CSharp.csproj|solutionrelative:assets\\scrpits\\abrirporta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ra00349650\\Downloads\\Orfanato-de-Mary-Carry\\Orfanato de Mary Carry\\Assets\\scrpits\\WalkieTalkieArea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\scrpits\\WalkieTalkieArea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DCAB14E5-8659-D501-8441-D92AEF21B6FD}|Assembly-CSharp.csproj|C:\\Users\\ra00349650\\Downloads\\Orfanato-de-Mary-Carry\\Orfanato de Mary Carry\\assets\\scrpits\\ipickable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DCAB14E5-8659-D501-8441-D92AEF21B6FD}|Assembly-CSharp.csproj|solutionrelative:assets\\scrpits\\ipickable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DCAB14E5-8659-D501-8441-D92AEF21B6FD}|Assembly-CSharp.csproj|C:\\Users\\ra00349650\\Downloads\\Orfanato-de-Mary-Carry\\Orfanato de Mary Carry\\assets\\scrpits\\collectablewalkietalkie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCAB14E5-8659-D501-8441-D92AEF21B6FD}|Assembly-CSharp.csproj|solutionrelative:assets\\scrpits\\collectablewalkietalkie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCAB14E5-8659-D501-8441-D92AEF21B6FD}|Assembly-CSharp.csproj|C:\\Users\\ra00349650\\Downloads\\Orfanato-de-Mary-Carry\\Orfanato de Mary Carry\\assets\\scrpits\\abrirporta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCAB14E5-8659-D501-8441-D92AEF21B6FD}|Assembly-CSharp.csproj|solutionrelative:assets\\scrpits\\abrirporta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DCAB14E5-8659-D501-8441-D92AEF21B6FD}|Assembly-CSharp.csproj|C:\\Users\\ra00349650\\Downloads\\Orfanato-de-Mary-Carry\\Orfanato de Mary Carry\\assets\\scrpits\\mesafrutas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,12 +43,16 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\MenuPrincipalManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ra00349650\\Downloads\\Orfanato-de-Mary-Carry\\Orfanato de Mary Carry\\assets\\scrpits\\pickableitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scrpits\\pickableitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ra00349650\\Downloads\\Orfanato-de-Mary-Carry\\Orfanato de Mary Carry\\Assets\\scrpits\\PickableItem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\scrpits\\PickableItem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ra00349650\\Downloads\\Orfanato-de-Mary-Carry\\Orfanato de Mary Carry\\assets\\scrpits\\pickableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scrpits\\pickableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ra00349650\\Downloads\\Orfanato-de-Mary-Carry\\Orfanato de Mary Carry\\Assets\\scrpits\\PickableObject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\scrpits\\PickableObject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ra00349650\\Downloads\\Orfanato-de-Mary-Carry\\Orfanato de Mary Carry\\Assets\\scrpits\\IPickable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\scrpits\\IPickable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -59,6 +67,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "WalkieTalkieArea.cs",
+              "DocumentMoniker": "C:\\Users\\ra00349650\\Downloads\\Orfanato-de-Mary-Carry\\Orfanato de Mary Carry\\Assets\\scrpits\\WalkieTalkieArea.cs",
+              "RelativeDocumentMoniker": "Assets\\scrpits\\WalkieTalkieArea.cs",
+              "ToolTip": "C:\\Users\\ra00349650\\Downloads\\Orfanato-de-Mary-Carry\\Orfanato de Mary Carry\\Assets\\scrpits\\WalkieTalkieArea.cs",
+              "RelativeToolTip": "Assets\\scrpits\\WalkieTalkieArea.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwBgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T13:51:11.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CollectableWalkieTalkie.cs",
+              "DocumentMoniker": "C:\\Users\\ra00349650\\Downloads\\Orfanato-de-Mary-Carry\\Orfanato de Mary Carry\\Assets\\scrpits\\CollectableWalkieTalkie.cs",
+              "RelativeDocumentMoniker": "Assets\\scrpits\\CollectableWalkieTalkie.cs",
+              "ToolTip": "C:\\Users\\ra00349650\\Downloads\\Orfanato-de-Mary-Carry\\Orfanato de Mary Carry\\Assets\\scrpits\\CollectableWalkieTalkie.cs",
+              "RelativeToolTip": "Assets\\scrpits\\CollectableWalkieTalkie.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T13:42:12.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "AbrirPorta.cs",
               "DocumentMoniker": "C:\\Users\\ra00349650\\Downloads\\Orfanato-de-Mary-Carry\\Orfanato de Mary Carry\\Assets\\scrpits\\AbrirPorta.cs",
               "RelativeDocumentMoniker": "Assets\\scrpits\\AbrirPorta.cs",
@@ -66,12 +99,11 @@
               "RelativeToolTip": "Assets\\scrpits\\AbrirPorta.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAgwBoAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T12:45:37.717Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-12T12:45:37.717Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 12,
               "Title": "IPickable.cs",
               "DocumentMoniker": "C:\\Users\\ra00349650\\Downloads\\Orfanato-de-Mary-Carry\\Orfanato de Mary Carry\\Assets\\scrpits\\IPickable.cs",
               "RelativeDocumentMoniker": "Assets\\scrpits\\IPickable.cs",
@@ -83,7 +115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "PickableObject.cs",
               "DocumentMoniker": "C:\\Users\\ra00349650\\Downloads\\Orfanato-de-Mary-Carry\\Orfanato de Mary Carry\\Assets\\scrpits\\PickableObject.cs",
               "RelativeDocumentMoniker": "Assets\\scrpits\\PickableObject.cs",
@@ -95,7 +127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "MenuPrincipalManager.cs",
               "DocumentMoniker": "C:\\Users\\ra00349650\\Downloads\\Orfanato-de-Mary-Carry\\Orfanato de Mary Carry\\Assets\\MenuPrincipalManager.cs",
               "RelativeDocumentMoniker": "Assets\\MenuPrincipalManager.cs",
@@ -107,7 +139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "PickableItem.cs",
               "DocumentMoniker": "C:\\Users\\ra00349650\\Downloads\\Orfanato-de-Mary-Carry\\Orfanato de Mary Carry\\Assets\\scrpits\\PickableItem.cs",
               "RelativeDocumentMoniker": "Assets\\scrpits\\PickableItem.cs",
@@ -119,7 +151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "mesafrutas.cs",
               "DocumentMoniker": "C:\\Users\\ra00349650\\Downloads\\Orfanato-de-Mary-Carry\\Orfanato de Mary Carry\\Assets\\scrpits\\mesafrutas.cs",
               "RelativeDocumentMoniker": "Assets\\scrpits\\mesafrutas.cs",
@@ -131,7 +163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "playermovement.cs",
               "DocumentMoniker": "C:\\Users\\ra00349650\\Downloads\\Orfanato-de-Mary-Carry\\Orfanato de Mary Carry\\Assets\\scrpits\\playermovement.cs",
               "RelativeDocumentMoniker": "Assets\\scrpits\\playermovement.cs",
@@ -143,7 +175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "DragPlate.cs",
               "DocumentMoniker": "C:\\Users\\ra00349650\\Downloads\\Orfanato-de-Mary-Carry\\Orfanato de Mary Carry\\Assets\\scrpits\\DragPlate.cs",
               "RelativeDocumentMoniker": "Assets\\scrpits\\DragPlate.cs",
@@ -155,7 +187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "PuzzleManager.cs",
               "DocumentMoniker": "C:\\Users\\ra00349650\\Downloads\\Orfanato-de-Mary-Carry\\Orfanato de Mary Carry\\Assets\\scrpits\\PuzzleManager.cs",
               "RelativeDocumentMoniker": "Assets\\scrpits\\PuzzleManager.cs",
@@ -167,7 +199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "mesalegumes.cs",
               "DocumentMoniker": "C:\\Users\\ra00349650\\Downloads\\Orfanato-de-Mary-Carry\\Orfanato de Mary Carry\\Assets\\scrpits\\mesalegumes.cs",
               "RelativeDocumentMoniker": "Assets\\scrpits\\mesalegumes.cs",
@@ -179,7 +211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "mesacarne.cs",
               "DocumentMoniker": "C:\\Users\\ra00349650\\Downloads\\Orfanato-de-Mary-Carry\\Orfanato de Mary Carry\\Assets\\scrpits\\mesacarne.cs",
               "RelativeDocumentMoniker": "Assets\\scrpits\\mesacarne.cs",

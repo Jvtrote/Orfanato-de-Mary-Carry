@@ -11,19 +11,19 @@ C:\Program Files\Unity\Hub\Editor\6000.0.35f1-x86_64\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/ra00349650/Documents/GitHub/Orfanato-de-Mary-Carry/Orfanato de Mary Carry
+C:/Users/ra00349650/Downloads/Orfanato-de-Mary-Carry/Orfanato de Mary Carry
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63382
+50159
 -job-worker-count
 9
 -background-job-worker-count
 8
 -gc-helper-count
 1
-Successfully changed project path to: C:/Users/ra00349650/Documents/GitHub/Orfanato-de-Mary-Carry/Orfanato de Mary Carry
-C:/Users/ra00349650/Documents/GitHub/Orfanato-de-Mary-Carry/Orfanato de Mary Carry
+Successfully changed project path to: C:/Users/ra00349650/Downloads/Orfanato-de-Mary-Carry/Orfanato de Mary Carry
+C:/Users/ra00349650/Downloads/Orfanato-de-Mary-Carry/Orfanato de Mary Carry
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -59,16 +59,16 @@ C:/Users/ra00349650/Documents/GitHub/Orfanato-de-Mary-Carry/Orfanato de Mary Car
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [12020]  Target information:
+Player connection [8924]  Target information:
 
-Player connection [12020]  * "[IP] 172.17.13.20 [Port] 0 [Flags] 2 [Guid] 1343915244 [EditorId] 1343915244 [Version] 1048832 [Id] WindowsEditor(7,DSP-BRJ3065CWB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [8924]  * "[IP] 172.17.5.12 [Port] 0 [Flags] 2 [Guid] 2840892097 [EditorId] 2840892097 [Version] 1048832 [Id] WindowsEditor(7,DSP-BRJ3055CN5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [12020]  * "[IP] 172.26.176.1 [Port] 0 [Flags] 2 [Guid] 1343915244 [EditorId] 1343915244 [Version] 1048832 [Id] WindowsEditor(7,DSP-BRJ3065CWB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [8924]  * "[IP] 172.22.240.1 [Port] 0 [Flags] 2 [Guid] 2840892097 [EditorId] 2840892097 [Version] 1048832 [Id] WindowsEditor(7,DSP-BRJ3055CN5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [12020]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1343915244 [EditorId] 1343915244 [Version] 1048832 [Id] WindowsEditor(7,DSP-BRJ3065CWB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [8924]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2840892097 [EditorId] 2840892097 [Version] 1048832 [Id] WindowsEditor(7,DSP-BRJ3055CN5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [12020] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [12020] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8924] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8924] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 9
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -80,11 +80,11 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 1.33 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.35f1 (9a3bc604008a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.35f1-x86_64/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/ra00349650/Documents/GitHub/Orfanato-de-Mary-Carry/Orfanato de Mary Carry/Assets
+[Subsystems] Discovering subsystems at path C:/Users/ra00349650/Downloads/Orfanato-de-Mary-Carry/Orfanato de Mary Carry/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:         Direct3D 12 [level 12.1]
@@ -97,50 +97,50 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.35f1-x86_64/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.35f1-x86_64/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.35f1-x86_64/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56524
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56604
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.35f1-x86_64/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.35f1-x86_64/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.35f1-x86_64/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.002431 seconds.
-- Loaded All Assemblies, in  0.379 seconds
+Registered in 0.002408 seconds.
+- Loaded All Assemblies, in  0.313 seconds
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 208 ms
+Android Extension - Scanning For ADB Devices 1697 ms
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.567 seconds
-Domain Reload Profiling: 946ms
-	BeginReloadAssembly (139ms)
+- Finished resetting the current domain, in  2.078 seconds
+Domain Reload Profiling: 2391ms
+	BeginReloadAssembly (110ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (44ms)
-	LoadAllAssembliesAndSetupDomain (150ms)
-		LoadAssemblies (139ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (126ms)
+		LoadAssemblies (110ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (147ms)
-			TypeCache.Refresh (145ms)
-				TypeCache.ScanAssembly (131ms)
+		AnalyzeDomain (123ms)
+			TypeCache.Refresh (122ms)
+				TypeCache.ScanAssembly (111ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (568ms)
+	FinalizeReload (2078ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (521ms)
+		SetupLoadedEditorAssemblies (2036ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (296ms)
+			InitializePlatformSupportModulesInManaged (1791ms)
 			SetLoadedEditorAssemblies (4ms)
 			BeforeProcessingInitializeOnLoad (53ms)
-			ProcessInitializeOnLoadAttributes (117ms)
-			ProcessInitializeOnLoadMethodAttributes (52ms)
+			ProcessInitializeOnLoadAttributes (122ms)
+			ProcessInitializeOnLoadMethodAttributes (67ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -149,7 +149,171 @@ Domain Reload Profiling: 946ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.778 seconds
+- Loaded All Assemblies, in  0.762 seconds
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.885 seconds
+Domain Reload Profiling: 1646ms
+	BeginReloadAssembly (158ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (517ms)
+		LoadAssemblies (316ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (294ms)
+			TypeCache.Refresh (216ms)
+				TypeCache.ScanAssembly (200ms)
+			BuildScriptInfoCaches (65ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (886ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (744ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (98ms)
+			ProcessInitializeOnLoadAttributes (368ms)
+			ProcessInitializeOnLoadMethodAttributes (262ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 460 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7177 unused Assets / (5.7 MB). Loaded Objects now: 8114.
+Memory consumption went from 248.7 MB to 243.0 MB.
+Total: 6.863500 ms (FindLiveObjects: 0.583500 ms CreateObjectMapping: 0.487300 ms MarkObjects: 3.769900 ms  DeleteObjects: 2.021900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 4811.084731 seconds.
+  path: Assets/Readme.asset
+  artifactKey: Guid(7f2c382dc2c22446db59030979f6e495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Readme.asset using Guid(7f2c382dc2c22446db59030979f6e495) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7737968bf6e9227014b550c5ac8759b5') in 0.0223805 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/InputSystem_Actions.inputactions
+  artifactKey: Guid(35845fe01580c41289b024647b1d1c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InputSystem_Actions.inputactions using Guid(35845fe01580c41289b024647b1d1c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7651addb58390371dcb5af84421f06b0') in 0.0081143 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.186275 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c391582d739b6e62a5220f35cbb167ac') in 0.0004822 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.716119 seconds.
+  path: Assets/OwlBetty
+  artifactKey: Guid(2fbfc51e820a29e48a27500e9a9e2c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OwlBetty using Guid(2fbfc51e820a29e48a27500e9a9e2c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8104acd6415524eefd13485a1acec919') in 0.0006871 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.708768 seconds.
+  path: Assets/OwlBetty/OwlBetty.fbx
+  artifactKey: Guid(cc0f2160eec745c43b8a8d2c887c39c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OwlBetty/OwlBetty.fbx using Guid(cc0f2160eec745c43b8a8d2c887c39c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+ -> (artifact id: 'c4ccb369d7dc57c1bbe08c1e19fb5ec5') in 2.2798572 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 86
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.746578 seconds.
+  path: Assets/OwlBetty/OwlBetty.fbx
+  artifactKey: Guid(cc0f2160eec745c43b8a8d2c887c39c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OwlBetty/OwlBetty.fbx using Guid(cc0f2160eec745c43b8a8d2c887c39c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4edd8928f5a95e0aef280580fe94231d') in 0.1823449 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 87
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.763509 seconds.
+  path: Assets/orfanato.unity
+  artifactKey: Guid(19ea9e759fe709546937ab5e5fbf82a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/orfanato.unity using Guid(19ea9e759fe709546937ab5e5fbf82a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ec2a6c0f068e959fced78a21fe0ed23a') in 0.0009171 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 87.571681 seconds.
+  path: Assets/OwlBetty/OwlBetty.fbx
+  artifactKey: Guid(cc0f2160eec745c43b8a8d2c887c39c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OwlBetty/OwlBetty.fbx using Guid(cc0f2160eec745c43b8a8d2c887c39c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be1ef53b255816f98fec138212fb5bb3') in 0.0581855 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 89
+
+========================================================================
+Received Import Request.
+  Time since last request: 189.674048 seconds.
+  path: Assets/OwlBetty/OwlBetty.fbx
+  artifactKey: Guid(cc0f2160eec745c43b8a8d2c887c39c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OwlBetty/OwlBetty.fbx using Guid(cc0f2160eec745c43b8a8d2c887c39c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8e87ab5852160308c537eddee8b4c7d2') in 0.1669968 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 91
+
+========================================================================
+Received Import Request.
+  Time since last request: 257.429090 seconds.
+  path: Assets/scrpits/CollectableWalkieTalkie.cs
+  artifactKey: Guid(bdcd33fc181f541409089cd0aa96ada8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scrpits/CollectableWalkieTalkie.cs using Guid(bdcd33fc181f541409089cd0aa96ada8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de356aa79391139d3569436b17f86310') in 0.0015549 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 525.476877 seconds.
+  path: Assets/scrpits
+  artifactKey: Guid(109b915ec2eda8f4a933341e43b3b4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scrpits using Guid(109b915ec2eda8f4a933341e43b3b4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2e9441f85e6d7cbb1cfdc7df7bb6ce4b') in 0.00122 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7169 unused Assets / (5.6 MB). Loaded Objects now: 9017.
+Memory consumption went from 286.6 MB to 281.0 MB.
+Total: 13.357200 ms (FindLiveObjects: 0.731600 ms CreateObjectMapping: 0.520900 ms MarkObjects: 9.586300 ms  DeleteObjects: 2.516900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 20.161492 seconds.
+  path: Assets/scrpits/WalkieTalkieArea.cs
+  artifactKey: Guid(e61cb0087eb86214bb74c3ab58b8ac35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scrpits/WalkieTalkieArea.cs using Guid(e61cb0087eb86214bb74c3ab58b8ac35) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b3fdf69d625bc831728b6f1169dba957') in 0.000515 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Leak Detected : Persistent allocates 8 individual allocations. To find out more please enable 'Preferences > Jobs > Leak Detection Level > Enabled With Stack Trace' and reproduce the leak again.
+- Loaded All Assemblies, in  0.709 seconds
 'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
@@ -158,262 +322,262 @@ Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.829 seconds
-Domain Reload Profiling: 1606ms
-	BeginReloadAssembly (158ms)
+- Finished resetting the current domain, in  0.673 seconds
+Domain Reload Profiling: 1386ms
+	BeginReloadAssembly (227ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (30ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (29ms)
-	RebuildCommonClasses (35ms)
+		CreateAndSetChildDomain (66ms)
+	RebuildCommonClasses (26ms)
 	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (37ms)
-	LoadAllAssembliesAndSetupDomain (535ms)
-		LoadAssemblies (331ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (427ms)
+		LoadAssemblies (329ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (298ms)
-			TypeCache.Refresh (219ms)
-				TypeCache.ScanAssembly (202ms)
-			BuildScriptInfoCaches (65ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (830ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (691ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (78ms)
-			ProcessInitializeOnLoadAttributes (336ms)
-			ProcessInitializeOnLoadMethodAttributes (258ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 460 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7177 unused Assets / (5.7 MB). Loaded Objects now: 8114.
-Memory consumption went from 246.7 MB to 241.0 MB.
-Total: 7.705800 ms (FindLiveObjects: 0.611400 ms CreateObjectMapping: 0.543700 ms MarkObjects: 4.321400 ms  DeleteObjects: 2.228300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 801.051068 seconds.
-  path: Assets/Orfanato (1).fbx
-  artifactKey: Guid(bbaf9aee135b5f444acb75c55edf2c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Orfanato (1).fbx using Guid(bbaf9aee135b5f444acb75c55edf2c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
- -> (artifact id: 'aab8c257a0154e01d3c10088ca396245') in 3.3650637 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 101
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.461991 seconds.
-  path: Assets/orfanato.unity
-  artifactKey: Guid(19ea9e759fe709546937ab5e5fbf82a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/orfanato.unity using Guid(19ea9e759fe709546937ab5e5fbf82a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e32fc32c9d5d383ce0143630cc250c0f') in 0.0027518 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Leak Detected : Persistent allocates 8 individual allocations. To find out more please enable 'Preferences > Jobs > Leak Detection Level > Enabled With Stack Trace' and reproduce the leak again.
-- Loaded All Assemblies, in  0.582 seconds
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.578 seconds
-Domain Reload Profiling: 1162ms
-	BeginReloadAssembly (193ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (26ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (53ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (20ms)
-	LoadAllAssembliesAndSetupDomain (338ms)
-		LoadAssemblies (238ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (170ms)
-			TypeCache.Refresh (6ms)
+		AnalyzeDomain (181ms)
+			TypeCache.Refresh (8ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (149ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (579ms)
+			BuildScriptInfoCaches (158ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (674ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (381ms)
+		SetupLoadedEditorAssemblies (461ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (11ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (69ms)
-			ProcessInitializeOnLoadAttributes (253ms)
-			ProcessInitializeOnLoadMethodAttributes (42ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7175 unused Assets / (5.5 MB). Loaded Objects now: 8223.
-Memory consumption went from 231.1 MB to 225.6 MB.
-Total: 7.088900 ms (FindLiveObjects: 0.562900 ms CreateObjectMapping: 0.465900 ms MarkObjects: 4.070500 ms  DeleteObjects: 1.988600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.561 seconds
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.579 seconds
-Domain Reload Profiling: 1144ms
-	BeginReloadAssembly (158ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (38ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (18ms)
-	LoadAllAssembliesAndSetupDomain (354ms)
-		LoadAssemblies (258ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (171ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (150ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (580ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (391ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (68ms)
-			ProcessInitializeOnLoadAttributes (263ms)
-			ProcessInitializeOnLoadMethodAttributes (44ms)
+			BeforeProcessingInitializeOnLoad (83ms)
+			ProcessInitializeOnLoadAttributes (312ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (11ms)
-Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7176 unused Assets / (5.4 MB). Loaded Objects now: 8258.
+Memory consumption went from 247.9 MB to 242.5 MB.
+Total: 6.822800 ms (FindLiveObjects: 0.536300 ms CreateObjectMapping: 0.476500 ms MarkObjects: 3.761100 ms  DeleteObjects: 2.048100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 342.260994 seconds.
+  path: Assets/scrpits/SimpleAudioTrigger.cs
+  artifactKey: Guid(e61cb0087eb86214bb74c3ab58b8ac35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scrpits/SimpleAudioTrigger.cs using Guid(e61cb0087eb86214bb74c3ab58b8ac35) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2ab9981f5351f0cf8515215f0c6dec30') in 0.006742 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7175 unused Assets / (5.7 MB). Loaded Objects now: 8225.
-Memory consumption went from 230.3 MB to 224.6 MB.
-Total: 7.648400 ms (FindLiveObjects: 0.693000 ms CreateObjectMapping: 0.585500 ms MarkObjects: 3.706100 ms  DeleteObjects: 2.660800 ms)
+Unloading 7170 unused Assets / (5.0 MB). Loaded Objects now: 8259.
+Memory consumption went from 244.2 MB to 239.2 MB.
+Total: 7.363500 ms (FindLiveObjects: 0.510200 ms CreateObjectMapping: 0.457700 ms MarkObjects: 4.651000 ms  DeleteObjects: 1.743900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.041835 seconds.
+  path: Assets/scrpits/WalkieTalkieArea.cs
+  artifactKey: Guid(459e6a3f5aa5b8f4bb0ecda2061702a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scrpits/WalkieTalkieArea.cs using Guid(459e6a3f5aa5b8f4bb0ecda2061702a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '103e3c8c818ddd5a1c4cc02c59d8f116') in 0.0058901 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7169 unused Assets / (5.6 MB). Loaded Objects now: 8258.
+Memory consumption went from 244.2 MB to 238.7 MB.
+Total: 8.137800 ms (FindLiveObjects: 0.572900 ms CreateObjectMapping: 0.468500 ms MarkObjects: 4.830200 ms  DeleteObjects: 2.265300 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.562 seconds
+- Loaded All Assemblies, in  0.589 seconds
 'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.565 seconds
-Domain Reload Profiling: 1129ms
-	BeginReloadAssembly (154ms)
+- Finished resetting the current domain, in  0.610 seconds
+Domain Reload Profiling: 1203ms
+	BeginReloadAssembly (162ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (37ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (9ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (11ms)
 	initialDomainReloadingComplete (19ms)
-	LoadAllAssembliesAndSetupDomain (357ms)
-		LoadAssemblies (258ms)
+	LoadAllAssembliesAndSetupDomain (372ms)
+		LoadAssemblies (274ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (171ms)
-			TypeCache.Refresh (6ms)
+		AnalyzeDomain (173ms)
+			TypeCache.Refresh (8ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (152ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (565ms)
+			BuildScriptInfoCaches (151ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (611ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (388ms)
+		SetupLoadedEditorAssemblies (416ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (11ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (70ms)
-			ProcessInitializeOnLoadAttributes (258ms)
-			ProcessInitializeOnLoadMethodAttributes (44ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (270ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7175 unused Assets / (5.6 MB). Loaded Objects now: 8227.
-Memory consumption went from 235.4 MB to 229.8 MB.
-Total: 6.670800 ms (FindLiveObjects: 0.527600 ms CreateObjectMapping: 0.528400 ms MarkObjects: 3.565300 ms  DeleteObjects: 2.047300 ms)
+Unloading 7176 unused Assets / (5.3 MB). Loaded Objects now: 8260.
+Memory consumption went from 247.3 MB to 242.0 MB.
+Total: 5.986000 ms (FindLiveObjects: 0.530400 ms CreateObjectMapping: 0.473500 ms MarkObjects: 3.183500 ms  DeleteObjects: 1.797900 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 2501.782368 seconds.
-  path: Assets/audios
-  artifactKey: Guid(3813bbd13dad2f24fb3c5b182abe1064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/audios using Guid(3813bbd13dad2f24fb3c5b182abe1064) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '29f2a4c336a46ce08e1c3d0ec8811a75') in 0.004024 seconds
+  Time since last request: 33.109561 seconds.
+  path: Assets/scrpits/SimpleAudioTrigger.cs
+  artifactKey: Guid(e61cb0087eb86214bb74c3ab58b8ac35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scrpits/SimpleAudioTrigger.cs using Guid(e61cb0087eb86214bb74c3ab58b8ac35) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f5879f10fce883b286472c33c4a51d79') in 0.0020666 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
+  Time since last request: 20.126578 seconds.
+  path: Assets/scrpits/CollectableKey.cs
+  artifactKey: Guid(465ccc41b15c8034289701d2be01ac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scrpits/CollectableKey.cs using Guid(465ccc41b15c8034289701d2be01ac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de4f058359fb40317229718fa4d97375') in 0.0020561 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7169 unused Assets / (2.8 MB). Loaded Objects now: 8260.
+Memory consumption went from 241.0 MB to 238.2 MB.
+Total: 10.492400 ms (FindLiveObjects: 1.117100 ms CreateObjectMapping: 0.729700 ms MarkObjects: 6.190800 ms  DeleteObjects: 2.453500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.971 seconds
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.051 seconds
+Domain Reload Profiling: 2025ms
+	BeginReloadAssembly (248ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (59ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (635ms)
+		LoadAssemblies (470ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (297ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (264ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1051ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (738ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (164ms)
+			ProcessInitializeOnLoadAttributes (474ms)
+			ProcessInitializeOnLoadMethodAttributes (70ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7176 unused Assets / (5.7 MB). Loaded Objects now: 8262.
+Memory consumption went from 244.0 MB to 238.3 MB.
+Total: 6.834700 ms (FindLiveObjects: 0.512200 ms CreateObjectMapping: 0.485000 ms MarkObjects: 3.678600 ms  DeleteObjects: 2.157600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 194.347415 seconds.
   path: Assets/audios/A gentle drizzle of rain falling on a wooden roof with soft, soothing droplets..wav
   artifactKey: Guid(2b24da00179d74048a1bc202c58646a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/audios/A gentle drizzle of rain falling on a wooden roof with soft, soothing droplets..wav using Guid(2b24da00179d74048a1bc202c58646a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f8790fdc47e80b97604a05e1c13442c4') in 0.1152502 seconds
+Start importing Assets/audios/A gentle drizzle of rain falling on a wooden roof with soft, soothing droplets..wav using Guid(2b24da00179d74048a1bc202c58646a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6a742a92e1b1bf3d2a5f58d13ca74d9e') in 0.1509055 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000027 seconds.
+  Time since last request: 0.000018 seconds.
+  path: Assets/audios/perdi de vista.mp3
+  artifactKey: Guid(91daa33ee14411a41b52684d87125e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/audios/perdi de vista.mp3 using Guid(91daa33ee14411a41b52684d87125e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7b6d2d6dcb4a031508fc0389bb721f89') in 0.0168588 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
   path: Assets/audios/corredor.mp3
   artifactKey: Guid(001cc0f205b3f964e85e911b3182a7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/audios/corredor.mp3 using Guid(001cc0f205b3f964e85e911b3182a7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '11349ef078a9d40af0eb179d3d5cc388') in 0.0211244 seconds
+Start importing Assets/audios/corredor.mp3 using Guid(001cc0f205b3f964e85e911b3182a7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '11349ef078a9d40af0eb179d3d5cc388') in 0.0235907 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000039 seconds.
+  Time since last request: 0.000015 seconds.
   path: Assets/audios/orfanato2.mp3
   artifactKey: Guid(fc4a474b4223ebc41b326b9042bdf66d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/audios/orfanato2.mp3 using Guid(fc4a474b4223ebc41b326b9042bdf66d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '48b6ed6a98f7f70199cbfc6fc5a415df') in 0.0176527 seconds
+Start importing Assets/audios/orfanato2.mp3 using Guid(fc4a474b4223ebc41b326b9042bdf66d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '48b6ed6a98f7f70199cbfc6fc5a415df') in 0.0194998 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
+  Time since last request: 0.000015 seconds.
   path: Assets/audios/orfanato3.mp3
   artifactKey: Guid(f80fd1c14d5060e4faf7653faa3362dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/audios/orfanato3.mp3 using Guid(f80fd1c14d5060e4faf7653faa3362dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e68a443ecd2f4058dae1da8c637cc9d') in 0.0198881 seconds
+Start importing Assets/audios/orfanato3.mp3 using Guid(f80fd1c14d5060e4faf7653faa3362dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e68a443ecd2f4058dae1da8c637cc9d') in 0.0167224 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
@@ -421,39 +585,39 @@ Received Import Request.
   Time since last request: 0.000023 seconds.
   path: Assets/audios/chefe.mp3
   artifactKey: Guid(a5d1551aebc1d924db6bfa0118d704b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/audios/chefe.mp3 using Guid(a5d1551aebc1d924db6bfa0118d704b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f4d6fe564db5c22c2351f7f0129bd54') in 0.0196705 seconds
+Start importing Assets/audios/chefe.mp3 using Guid(a5d1551aebc1d924db6bfa0118d704b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f4d6fe564db5c22c2351f7f0129bd54') in 0.0190652 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/audios/pega walktalk.mp3
+  artifactKey: Guid(c4cd9655ffac9ef4d9e2d518250f3595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/audios/pega walktalk.mp3 using Guid(c4cd9655ffac9ef4d9e2d518250f3595) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6a122caa354e29b2581833ca2a708f2b') in 0.2411367 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/audios/Corre.mp3
+  artifactKey: Guid(e7a5a24b8ad5d9e4f989e52ba40c827d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/audios/Corre.mp3 using Guid(e7a5a24b8ad5d9e4f989e52ba40c827d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6e0292b89dfecb591007bcea8795e5d6') in 0.5873646 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/audios/orfanato1.mp3
+  artifactKey: Guid(3e1320ffc7fe56c488a3587e296a73ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/audios/orfanato1.mp3 using Guid(3e1320ffc7fe56c488a3587e296a73ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '71612cf70930e338efade8233aa293b3') in 0.0137604 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000015 seconds.
-  path: Assets/audios/pega walktalk.mp3
-  artifactKey: Guid(c4cd9655ffac9ef4d9e2d518250f3595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/audios/pega walktalk.mp3 using Guid(c4cd9655ffac9ef4d9e2d518250f3595) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6a122caa354e29b2581833ca2a708f2b') in 0.0221282 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/audios/Corre.mp3
-  artifactKey: Guid(e7a5a24b8ad5d9e4f989e52ba40c827d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/audios/Corre.mp3 using Guid(e7a5a24b8ad5d9e4f989e52ba40c827d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6e0292b89dfecb591007bcea8795e5d6') in 0.0184187 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/audios/orfanato1.mp3
-  artifactKey: Guid(3e1320ffc7fe56c488a3587e296a73ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/audios/orfanato1.mp3 using Guid(3e1320ffc7fe56c488a3587e296a73ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '71612cf70930e338efade8233aa293b3') in 0.0236895 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
   path: Assets/audios/felizes.mp3
   artifactKey: Guid(a629f19e23255c041ba5b68ee5abf35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/audios/felizes.mp3 using Guid(a629f19e23255c041ba5b68ee5abf35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4292411c07d216fa06ededc71653a121') in 0.0188261 seconds
+Start importing Assets/audios/felizes.mp3 using Guid(a629f19e23255c041ba5b68ee5abf35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4292411c07d216fa06ededc71653a121') in 0.0233334 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
@@ -461,59 +625,11 @@ Received Import Request.
   Time since last request: 0.000017 seconds.
   path: Assets/audios/iza cochichando.mp3
   artifactKey: Guid(ede482037d25b324192055518687b672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/audios/iza cochichando.mp3 using Guid(ede482037d25b324192055518687b672) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '039f9779069dfcecda2b89cfe4feb748') in 0.0223291 seconds
+Start importing Assets/audios/iza cochichando.mp3 using Guid(ede482037d25b324192055518687b672) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '039f9779069dfcecda2b89cfe4feb748') in 0.0216527 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.606 seconds
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.571 seconds
-Domain Reload Profiling: 1179ms
-	BeginReloadAssembly (156ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (40ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (20ms)
-	LoadAllAssembliesAndSetupDomain (398ms)
-		LoadAssemblies (299ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (178ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (153ms)
-			ResolveRequiredComponents (15ms)
-	FinalizeReload (571ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (392ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (74ms)
-			ProcessInitializeOnLoadAttributes (258ms)
-			ProcessInitializeOnLoadMethodAttributes (43ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7175 unused Assets / (5.3 MB). Loaded Objects now: 8231.
-Memory consumption went from 231.0 MB to 225.6 MB.
-Total: 7.112700 ms (FindLiveObjects: 0.565500 ms CreateObjectMapping: 0.596400 ms MarkObjects: 3.826400 ms  DeleteObjects: 2.123100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
