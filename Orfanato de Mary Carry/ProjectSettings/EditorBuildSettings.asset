@@ -11,6 +11,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/orfanato.unity
     guid: 19ea9e759fe709546937ab5e5fbf82a7
+  - enabled: 1
+    path: Assets/Game Over.unity
+    guid: b9b1ab43a477c214a8ca1ff2eb8f9f2a
+  - enabled: 1
+    path: Assets/creditos.unity
+    guid: 420c4a072719b714a834c6a54b164d82
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 35845fe01580c41289b024647b1d1c53, type: 3}
   m_UseUCBPForAssetBundles: 0
