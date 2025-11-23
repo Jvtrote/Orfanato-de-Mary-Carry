@@ -37,7 +37,7 @@ public class DoorTriggerArea : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        // Verifica se o objeto que entrou tem a tag "Player" E se a porta ainda não foi aberta.
+        // Verifica se o objeto que entrou tem a tag "MainCamera" E se a porta ainda não foi aberta.
         if (other.CompareTag(PlayerTag) && !hasBeenOpened)
         {
             if (doorAnimator != null)
