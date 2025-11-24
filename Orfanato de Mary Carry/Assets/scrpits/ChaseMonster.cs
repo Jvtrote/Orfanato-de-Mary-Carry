@@ -1,90 +1,124 @@
 using UnityEngine;
 using UnityEngine.AI;
+using System.Collections;
 
 public class ChaserMonster : MonoBehaviour
 {
     private NavMeshAgent agent;
     private Animator animator;
+    private AudioSource audioSource; // NOVO: Referência para o áudio
     private Transform playerTarget;
-    private SkinnedMeshRenderer monsterRenderer; // Componente gráfico
+    private SkinnedMeshRenderer monsterRenderer;
     private bool isChasing = false;
 
     [Header("Configurações")]
     public float chaseSpeed = 6.0f;
     public string runningAnimationName = "correndo";
 
-    void Start()
+    void Awake()
     {
         agent = GetComponent<NavMeshAgent>();
         animator = GetComponent<Animator>();
-
-        // CORREÇÃO: Procura o SkinnedMeshRenderer em qualquer objeto filho
+        audioSource = GetComponent<AudioSource>(); // NOVO: Obtém o AudioSource
         monsterRenderer = GetComponentInChildren<SkinnedMeshRenderer>();
 
         if (agent == null)
         {
-            Debug.LogError("ChaserMonster precisa de um NavMeshAgent!");
+            Debug.LogError("ERRO FATAL: NavMeshAgent não encontrado em Awake()!");
+        }
+    }
+
+    // ... (O método Start() permanece o mesmo) ...
+    void Start()
+    {
+        if (agent == null)
+        {
             enabled = false;
             return;
         }
 
-        if (monsterRenderer == null)
-        {
-            Debug.LogError("ChaserMonster: Renderizador não encontrado. A visibilidade pode falhar.");
-        }
-
-        // Garante que o monstro esteja ativo e visível no início da perseguição
         gameObject.SetActive(true);
         if (monsterRenderer != null)
         {
-            monsterRenderer.enabled = true;
+            monsterRenderer.enabled = false;
         }
 
-        // Garante que ele só se move quando StartChasing é chamado
         agent.isStopped = true;
     }
 
-    // Função pública chamada pelo JumpscareHandler para iniciar a perseguição
     public void StartChasing(Transform target)
     {
+        if (agent == null)
+        {
+            return;
+        }
+
         playerTarget = target;
         isChasing = true;
 
-        agent.speed = chaseSpeed;
-        agent.isStopped = false; // Inicia o movimento
+        // 1. Inicia o som da perseguição
+        if (audioSource != null && audioSource.clip != null)
+        {
+            audioSource.Play(); // NOVO: Toca o áudio
+        }
 
+        // Inicia a Coroutine que liga a visibilidade e o movimento
+        if (monsterRenderer != null)
+        {
+            StartCoroutine(AppearAfterDelayAndStartChase());
+        }
+
+        // 3. Inicia a animação
         if (animator != null)
         {
             animator.SetBool(runningAnimationName, true);
         }
     }
 
+    // ... (O resto dos métodos permanecem o mesmo) ...
+    private IEnumerator AppearAfterDelayAndStartChase()
+    {
+        yield return null;
+
+        if (monsterRenderer != null)
+        {
+            monsterRenderer.enabled = true;
+            Debug.Log("CHASER: Visibilidade forçada no próximo frame. Monstro visível.");
+        }
+
+        agent.Warp(transform.position);
+
+        agent.speed = chaseSpeed;
+        agent.isStopped = false;
+    }
+
     void Update()
     {
-        if (isChasing && playerTarget != null)
+        if (isChasing && playerTarget != null && agent != null)
         {
-            // Atualiza o destino a cada frame para seguir o jogador
             agent.SetDestination(playerTarget.position);
         }
     }
 
-    // Função para ser chamada pelo Trigger de Fim para sumir
     public void Vanish()
     {
         isChasing = false;
+
+        if (audioSource != null)
+        {
+            audioSource.Stop(); // Boa prática: para o som ao desaparecer
+        }
 
         if (animator != null)
         {
             animator.SetBool(runningAnimationName, false);
         }
 
-        // Torna o monstro invisível antes de destruir
         if (monsterRenderer != null)
         {
             monsterRenderer.enabled = false;
         }
 
-        // Destrói o GameObject
         Destroy(gameObject);
     }
 }

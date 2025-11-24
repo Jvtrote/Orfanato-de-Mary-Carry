@@ -4,7 +4,7 @@ public class ScareActivator : MonoBehaviour
 {
     [Header("Monstro a Ativar")]
     [Tooltip("Arraste o GameObject do monstro (com JumpscareHandler) aqui.")]
-    public JumpscareHandler scareHandler; // Referência ao novo script!
+    public JumpscareHandler scareHandler; // Referência ao script correto!
 
     private const string PlayerTag = "MainCamera";
     private bool hasBeenActivated = false;
@@ -15,8 +15,9 @@ public class ScareActivator : MonoBehaviour
         {
             if (scareHandler != null)
             {
-                // Chama a nova função StartScareSequence
-                scareHandler.StartScareSequence();
+                // CORREÇÃO: Chamando o novo nome da função
+                scareHandler.StartScareAndVanish();
+
                 hasBeenActivated = true;
 
                 // Desativa o próprio Trigger para não disparar novamente

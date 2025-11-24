@@ -1,6 +1,6 @@
 using UnityEngine;
-using UnityEngine.AI;
 using System.Collections;
+using UnityEngine.AI;
 
 public class JumpscareHandler : MonoBehaviour
 {
@@ -8,23 +8,21 @@ public class JumpscareHandler : MonoBehaviour
     private SkinnedMeshRenderer monsterRenderer;
 
     [Header("Configurações do Susto")]
-    [Tooltip("Nome do Trigger para a animação de Susto. Ex: 'Susto'")]
     public string scareAnimationName = "Susto";
-
-    [Tooltip("Duração (em segundos) que o monstro fica visível e na animação de susto.")]
     public float scareDuration = 1.5f;
 
-    [Tooltip("Pode ser 0.1f para sumir imediatamente após o susto.")]
-    public float destructionDelay = 0.1f;
+    [Header("Configuração de Transição")]
+    public GameObject chaserMonsterPrefab;
+    public Transform playerTarget;
 
     void Start()
     {
         animator = GetComponent<Animator>();
         monsterRenderer = GetComponentInChildren<SkinnedMeshRenderer>();
 
-        if (animator == null || monsterRenderer == null)
+        if (monsterRenderer == null)
         {
-            Debug.LogError("Componentes ausentes! JumpscareHandler precisa de Animator e SkinnedMeshRenderer.");
+            Debug.LogError("JumpscareHandler: Renderizador do monstro de susto não encontrado.");
             enabled = false;
             return;
         }
@@ -33,32 +31,60 @@ public class JumpscareHandler : MonoBehaviour
         monsterRenderer.enabled = false;
     }
 
-    // Função pública chamada pelo HITBOX (ScareActivator)
-    public void StartScareSequence()
+    public void StartScareAndVanish()
     {
-        // 1. Aparece o monstro
         monsterRenderer.enabled = true;
-
-        // 2. Inicia a sequência Susto -> Sumir
         StartCoroutine(ScareSequence());
     }
 
     private IEnumerator ScareSequence()
     {
-        // Dispara a animação de susto
-        if (!string.IsNullOrEmpty(scareAnimationName))
+        // 1. Dispara a animação de susto
+        if (animator != null && !string.IsNullOrEmpty(scareAnimationName))
         {
             animator.SetTrigger(scareAnimationName);
         }
 
-        // Espera o tempo definido para a animação
+        // 2. Espera o tempo definido para a animação de susto
         yield return new WaitForSeconds(scareDuration);
 
-        // Sumir: Torna o monstro invisível e o destrói após um pequeno atraso
+        // --- 3. Geração do Monstro Perseguidor (Spawn) ---
+        if (chaserMonsterPrefab == null || playerTarget == null)
+        {
+            Debug.LogError("ERRO CRÍTICO: Prefab ou Target do Jogador não atribuído no Inspector!");
+            Vanish();
+            yield break;
+        }
+
+        Vector3 spawnPosition = transform.position;
+        NavMeshHit hit;
+
+        if (NavMesh.SamplePosition(spawnPosition, out hit, 1.0f, NavMesh.AllAreas))
+        {
+            GameObject chaserMonster = Instantiate(chaserMonsterPrefab, hit.position, transform.rotation);
+
+            ChaserMonster chaserScript = chaserMonster.GetComponent<ChaserMonster>();
+            if (chaserScript != null)
+            {
+                chaserScript.StartChasing(playerTarget);
+            }
+            else
+            {
+                Debug.LogError("O Prefab atribuído não tem o script ChaserMonster.cs!");
+            }
+        }
+        else
+        {
+            Debug.LogError("NavMesh.SamplePosition falhou: Não encontrou ponto válido para spawn!");
+        }
+
+        // 4. Torna o monstro de susto invisível e o destrói
+        // NOVO: Desativa o GameObject pai imediatamente para resolver o problema de "fusão" visual
+        gameObject.SetActive(false);
+
         Vanish();
     }
 
-    // Função para sumir e destruir
     private void Vanish()
     {
         if (monsterRenderer != null)
@@ -66,8 +92,8 @@ public class JumpscareHandler : MonoBehaviour
             monsterRenderer.enabled = false;
         }
 
-        // Destrói o GameObject após o atraso (para garantir que o som termine)
-        Destroy(gameObject, destructionDelay);
+        // Destrói o GameObject
+        Destroy(gameObject, 0.1f);
         enabled = false;
     }
 }
