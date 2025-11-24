@@ -6,7 +6,7 @@ public class ChaserMonster : MonoBehaviour
 {
     private NavMeshAgent agent;
     private Animator animator;
-    private AudioSource audioSource; // NOVO: Referência para o áudio
+    private AudioSource audioSource;
     private Transform playerTarget;
     private SkinnedMeshRenderer monsterRenderer;
     private bool isChasing = false;
@@ -15,11 +15,15 @@ public class ChaserMonster : MonoBehaviour
     public float chaseSpeed = 6.0f;
     public string runningAnimationName = "correndo";
 
+    [Header("Configurações de Ataque e Fim de Jogo")]
+    public string attackAnimationName = "Atacando"; // NOVO: Nome da animação
+    public GameObject gameManager; // NOVO: Referência ao GameObject GameManager
+
     void Awake()
     {
         agent = GetComponent<NavMeshAgent>();
         animator = GetComponent<Animator>();
-        audioSource = GetComponent<AudioSource>(); // NOVO: Obtém o AudioSource
+        audioSource = GetComponent<AudioSource>();
         monsterRenderer = GetComponentInChildren<SkinnedMeshRenderer>();
 
         if (agent == null)
@@ -28,7 +32,6 @@ public class ChaserMonster : MonoBehaviour
         }
     }
 
-    // ... (O método Start() permanece o mesmo) ...
     void Start()
     {
         if (agent == null)
@@ -59,7 +62,7 @@ public class ChaserMonster : MonoBehaviour
         // 1. Inicia o som da perseguição
         if (audioSource != null && audioSource.clip != null)
         {
-            audioSource.Play(); // NOVO: Toca o áudio
+            audioSource.Play();
         }
 
         // Inicia a Coroutine que liga a visibilidade e o movimento
@@ -75,7 +78,41 @@ public class ChaserMonster : MonoBehaviour
         }
     }
 
-    // ... (O resto dos métodos permanecem o mesmo) ...
+    // NOVO: Método chamado quando o monstro toca no jogador
+    public void AttackPlayer()
+    {
+        // 1. Para toda a lógica de movimento
+        isChasing = false;
+        if (agent != null)
+        {
+            agent.isStopped = true;
+        }
+
+        // 2. Toca a animação de ataque
+        if (animator != null && !string.IsNullOrEmpty(attackAnimationName))
+        {
+            animator.SetTrigger(attackAnimationName);
+        }
+
+        // 3. Chama a função de Game Over no GameManager
+        if (gameManager != null)
+        {
+            // Envia uma mensagem ao script GameManager para iniciar a tela de Game Over
+            gameManager.SendMessage("EndGame", SendMessageOptions.DontRequireReceiver);
+        }
+        else
+        {
+            Debug.LogError("CHASER: O GameObject GameManager não foi atribuído no Inspector!");
+        }
+
+        // 4. Para o som e destrói o objeto após a animação
+        if (audioSource != null)
+        {
+            audioSource.Stop();
+        }
+        Destroy(gameObject, 3.0f); // Dá 3s para a animação de ataque rodar
+    }
+
     private IEnumerator AppearAfterDelayAndStartChase()
     {
         yield return null;
@@ -86,10 +123,12 @@ public class ChaserMonster : MonoBehaviour
             Debug.Log("CHASER: Visibilidade forçada no próximo frame. Monstro visível.");
         }
 
-        agent.Warp(transform.position);
-
-        agent.speed = chaseSpeed;
-        agent.isStopped = false;
+        if (agent != null)
+        {
+            agent.Warp(transform.position);
+            agent.speed = chaseSpeed;
+            agent.isStopped = false;
+        }
     }
 
     void Update()
@@ -106,7 +145,7 @@ public class ChaserMonster : MonoBehaviour
 
         if (audioSource != null)
         {
-            audioSource.Stop(); // Boa prática: para o som ao desaparecer
+            audioSource.Stop();
         }
 
         if (animator != null)

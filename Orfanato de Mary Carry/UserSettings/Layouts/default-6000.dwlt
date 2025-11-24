@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 101
+  controlID: 86
   draggingID: 0
 --- !u!114 &3
 MonoBehaviour:
@@ -69,8 +69,8 @@ MonoBehaviour:
     y: 0
     width: 363.19995
     height: 716.8
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 76}
+  m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -112,7 +112,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ConsoleWindow
+  m_Name: ProjectBrowser
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -121,14 +121,14 @@ MonoBehaviour:
     y: 425.6
     width: 1172.8
     height: 291.19998
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 18}
+  m_MinSize: {x: 231, y: 276}
+  m_MaxSize: {x: 10001, y: 10026}
+  m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
   - {fileID: 18}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -399,7 +399,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/scrpits
+    - Assets
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -409,17 +409,17 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/scrpits
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\jvtro\OneDrive\Documentos\GitHub\Orfanato-de-Mary-Carry\Orfanato
     de Mary Carry
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 139}
-    m_SelectedIDs: 0a0a0100
-    m_LastClickedID: 68106
-    m_ExpandedIDs: 00000000ea09010000ca9a3b
+    scrollPos: {x: 0, y: 19}
+    m_SelectedIDs: fe090100
+    m_LastClickedID: 68094
+    m_ExpandedIDs: 00000000fe09010000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -474,9 +474,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 1ceefeff
-    m_LastClickedInstanceID: -70116
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c62300002204010036040100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -502,7 +502,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 81.80002}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
@@ -593,10 +593,10 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 1056}
-      m_SelectedIDs: 280c0100
-      m_LastClickedID: 68648
-      m_ExpandedIDs: 8afbfeffb605ffffaa0a0100a80b0100
+      scrollPos: {x: 0, y: 693.4}
+      m_SelectedIDs: f42a0100
+      m_LastClickedID: 76532
+      m_ExpandedIDs: c2b8feff4ec7feff0cfefeffa205ffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -613,7 +613,7 @@ MonoBehaviour:
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_TrimLeadingAndTrailingWhitespace: 0
-        m_ClientGUIView: {fileID: 4}
+        m_ClientGUIView: {fileID: 0}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -1172,9 +1172,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -24.8919, y: -73.681145, z: 338.18686}
+    m_Target: {x: -181.76558, y: -23.350388, z: 296.80084}
     speed: 2
-    m_Value: {x: -24.8919, y: -73.681145, z: 338.18686}
+    m_Value: {x: -181.76558, y: -23.350388, z: 296.80084}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1220,11 +1220,11 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.106575795, y: -0.03349135, z: 0.0042516263, w: 0.9942929}
+    m_Target: {x: 0.03761988, y: -0.18618846, z: 0.0078028496, w: 0.9823468}
     speed: 2
-    m_Value: {x: 0.10651117, y: -0.034665156, z: 0.004377074, w: 0.9936974}
+    m_Value: {x: 0.03997399, y: -0.18370584, z: 0.008150014, w: 0.98213434}
   m_Size:
-    m_Target: 181.51294
+    m_Target: 173.34486
     speed: 2
     m_Value: 181.51294
   m_Ortho:
